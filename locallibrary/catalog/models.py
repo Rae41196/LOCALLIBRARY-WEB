@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.urls import reverse
 import uuid #required for unique book instances
 #This model will be used to store information about the book category
 class Genre(models.Model):
